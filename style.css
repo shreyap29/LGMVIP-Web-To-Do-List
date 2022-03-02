@@ -1,0 +1,95 @@
+body{
+    background-image: url('https://i.postimg.cc/VkJ87YsS/set-pastel-paper-sheets-23-2148320458.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container{
+    width: 40%;
+    margin: 20px 30% 25% 30%;
+    background: rgb(230, 231, 221);
+    border-radius: 10px;
+    min-width: 450px;
+    border: #041e46 solid;
+    position: absolute;
+    min-height: 100px;
+}
+#title{
+    margin-top: 12%;
+    margin-inline: 39.5%;
+    text-align: center;
+    font-size:xx-large;
+    letter-spacing: 2px;
+    font-weight: 1200;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(14, 2, 5);
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    border: 2px solid #74b6cc;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #74b6cc;
+    border: solid #4685e2;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+}
+#tasks{
+    border-radius: 10px;
+    width: 96%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    
+    justify-content: space-between;
+    border: 1px solid #74b6cc;
+    cursor: pointer;
+    background-color: #74b6cc;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #113a79;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
